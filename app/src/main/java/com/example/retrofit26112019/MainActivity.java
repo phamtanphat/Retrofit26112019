@@ -45,5 +45,8 @@ public class MainActivity extends AppCompatActivity {
                             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                             .client(okHttpClient)
                             .build();
+
+        // 2 : Khoi tao interface chua cac request
+
     }
 }
